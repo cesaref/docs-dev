@@ -9,18 +9,18 @@ has_toc: false
 
 # Cmaj Unit Test Files
 
-The test file format allows you to create a single file containing multiple scripted tests.
+The test file format allows you to create test files which run multiple scripted tests of Cmajor code.
 
-Javascript can be used to write custom functions that can perform kind of test, but a set of common helper functions are provided.
+Javascript can be used to write custom functions that can perform kind of test, but a set of common helper functions are also provided.
 
-A typical test might load a Cmaj program, checking for errors, passing some inputs into it and checking the the expected outputs come out.
+A typical test might load a Cmaj program, check for compile errors, pass some inputs into it and check that the expected outputs are emitted.
 
 ## Running Tests
 
 To run a test file, you can use the command-line tool:
 
-```
-$ cmaj test my_tests/TestFile1.cmajor_test
+```shell
+$ cmaj test my_tests/TestFile1.cmajtest
 ```
 
 You can also provide a folder instead of a filename, and it will scan for all the tests within that folder, and print out a set of total results for all of them.
@@ -56,8 +56,8 @@ e.g.
 ## expectError ("...")
 
 ...Likewise, this chunk of text is passed to the "expectError" function...
-```
 
+```
 Any content at the start of the file, up to the first `##` line, is parsed as Javascript. This is where you can define custom test functions which can be used multiple times within the file.
 
 ## Special Section Delimiters

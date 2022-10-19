@@ -1462,7 +1462,9 @@ The key to understanding this is to think about how a general audio model may lo
 
 Several processor nodes may graph together in clusters that are then fed into the main graph as one larger processor node. It can be as complicated or simple as a program requires.
 
-For more information, look at some of our example code patches and further documentation exploring this concept.
+It's important to note that although graphs seem like a higher-level abstraction than processors, they are *just as fast*! During compilation, the data-flow through graph connections becomes function calls, and the compiler optimises these as aggressively as hand-written functions. So for example, a graph containing a node which applies a gain-change to an input stream is quite likely to be reduced to a single assembly-language operation, just like a hand-written loop would be.
+
+For more examples, most of the example code patches use a mixture of graphs and processors.
 
 ### Delays and Feedback Loops
 
