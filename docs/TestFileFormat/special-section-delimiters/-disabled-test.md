@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ` disabled [test...]`
+title: `-- disabled [test...]`
 permalink: /docs/TestFileFormat#-disabled-test
 parent: Special Section Delimiters
 grand_parent: Test File Format
