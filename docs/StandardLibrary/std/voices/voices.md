@@ -1,8 +1,8 @@
 ---
 title: voices
+permalink: /docs/StandardLibrary#voices
 parent: std
-permalink: /docs/StandardLibrary#std
 grand_parent: Standard Library
-has_children: false
+has_children: False
 nav_order: 16
 ---

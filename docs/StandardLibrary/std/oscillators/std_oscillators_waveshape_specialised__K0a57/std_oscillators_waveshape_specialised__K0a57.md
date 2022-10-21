@@ -1,8 +1,8 @@
 ---
 title: std_oscillators_waveshape_specialised__K0a57
+permalink: /docs/StandardLibrary#std_oscillators_waveshape_specialised__K0a57
 parent: oscillators
-permalink: /docs/StandardLibrary#oscillators
 grand_parent: std
-has_children: false
+has_children: False
 nav_order: 1
 ---

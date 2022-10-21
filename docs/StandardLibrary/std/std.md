@@ -1,7 +1,7 @@
 ---
 title: std
+permalink: /docs/StandardLibrary#std
 parent: Standard Library
-permalink: /docs/StandardLibrary#
-has_children: true
+has_children: True
 nav_order: 1
 ---

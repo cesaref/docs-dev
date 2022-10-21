@@ -1,8 +1,8 @@
 ---
 title: svf
+permalink: /docs/StandardLibrary#svf
 parent: tpt
-permalink: /docs/StandardLibrary#tpt
 grand_parent: filters
-has_children: true
+has_children: True
 nav_order: 1
 ---

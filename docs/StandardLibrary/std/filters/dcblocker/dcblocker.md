@@ -1,8 +1,8 @@
 ---
 title: dcblocker
+permalink: /docs/StandardLibrary#dcblocker
 parent: filters
-permalink: /docs/StandardLibrary#filters
 grand_parent: std
-has_children: false
+has_children: False
 nav_order: 1
 ---

@@ -1,8 +1,8 @@
 ---
 title: Mode
+permalink: /docs/StandardLibrary#Mode3
 parent: butterworth
-permalink: /docs/StandardLibrary#butterworth
 grand_parent: filters
-has_children: false
+has_children: False
 nav_order: 0
 ---

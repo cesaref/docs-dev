@@ -1,8 +1,8 @@
 ---
 title: simper
+permalink: /docs/StandardLibrary#simper
 parent: filters
-permalink: /docs/StandardLibrary#filters
 grand_parent: std
-has_children: true
+has_children: True
 nav_order: 4
 ---

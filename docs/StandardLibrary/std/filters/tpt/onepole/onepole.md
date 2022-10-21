@@ -1,8 +1,8 @@
 ---
 title: onepole
+permalink: /docs/StandardLibrary#onepole
 parent: tpt
-permalink: /docs/StandardLibrary#tpt
 grand_parent: filters
-has_children: true
+has_children: True
 nav_order: 0
 ---

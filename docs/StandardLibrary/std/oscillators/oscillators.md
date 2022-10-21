@@ -1,8 +1,8 @@
 ---
 title: oscillators
+permalink: /docs/StandardLibrary#oscillators
 parent: std
-permalink: /docs/StandardLibrary#std
 grand_parent: Standard Library
-has_children: true
+has_children: True
 nav_order: 13
 ---
