@@ -1,5 +1,6 @@
 ---
 title: std
-has_children: 1
+parent: Standard Library
+has_children: true
 nav_order: 1
 ---

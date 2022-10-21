@@ -1,6 +1,6 @@
 ---
 title: dcblocker
 parent: filters
-has_children: 0
+has_children: false
 nav_order: 1
 ---

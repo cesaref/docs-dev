@@ -1,6 +1,6 @@
 ---
 title: Mode
 parent: butterworth
-has_children: 0
+has_children: false
 nav_order: 0
 ---

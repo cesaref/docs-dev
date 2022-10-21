@@ -1,6 +1,6 @@
 ---
-title: audio_data
-parent: std
+title: Mode
+parent: simper
 has_children: false
 nav_order: 0
 ---

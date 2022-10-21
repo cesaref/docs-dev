@@ -1,6 +1,6 @@
 ---
 title: waveshape
 parent: oscillators
-has_children: 0
+has_children: false
 nav_order: 0
 ---

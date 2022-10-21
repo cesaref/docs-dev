@@ -1,6 +1,6 @@
 ---
 title: onepole
 parent: tpt
-has_children: 1
+has_children: true
 nav_order: 0
 ---

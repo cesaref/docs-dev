@@ -1,6 +1,6 @@
 ---
 title: butterworth
 parent: filters
-has_children: 1
+has_children: true
 nav_order: 2
 ---
