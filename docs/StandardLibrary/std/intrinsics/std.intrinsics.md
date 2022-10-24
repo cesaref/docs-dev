@@ -1,5 +1,5 @@
 ---
-title: intrinsics
+title: std.intrinsics
 permalink: /docs/StandardLibrary#intrinsics
 parent: std
 grand_parent: Standard Library

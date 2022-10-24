@@ -1,5 +1,5 @@
 ---
-title: oscillators
+title: std.oscillators
 permalink: /docs/StandardLibrary#oscillators
 parent: std
 grand_parent: Standard Library
