@@ -3,6 +3,6 @@ title: noise
 permalink: /docs/StandardLibrary#noise
 parent: std
 grand_parent: Standard Library
-has_children: False
+has_children: True
 nav_order: 11
 ---

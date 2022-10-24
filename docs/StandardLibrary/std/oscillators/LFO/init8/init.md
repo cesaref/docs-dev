@@ -1,0 +1,8 @@
+---
+title: init
+permalink: /docs/StandardLibrary#init8
+parent: LFO
+grand_parent: oscillators
+has_children: False
+nav_order: 11
+---
