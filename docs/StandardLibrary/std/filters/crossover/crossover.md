@@ -1,7 +1,7 @@
 ---
 title: crossover
 permalink: /docs/StandardLibrary#crossover
-parent: filters
+parent: std.filters
 grand_parent: std
 has_children: True
 nav_order: 3
