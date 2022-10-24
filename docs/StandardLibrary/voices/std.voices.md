@@ -4,5 +4,5 @@ permalink: /docs/StandardLibrary#voices
 parent: std
 grand_parent: Standard Library
 has_children: True
-nav_order: 16
+nav_order: 1
 ---

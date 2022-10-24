@@ -4,5 +4,5 @@ permalink: /docs/StandardLibrary#oscillators
 parent: std
 grand_parent: Standard Library
 has_children: True
-nav_order: 13
+nav_order: 1
 ---

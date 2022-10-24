@@ -1,8 +1,8 @@
 ---
-title: std.noise
-permalink: /docs/StandardLibrary#noise
+title: std.midi
+permalink: /docs/StandardLibrary#midi
 parent: std
 grand_parent: Standard Library
 has_children: True
-nav_order: 11
+nav_order: 1
 ---
