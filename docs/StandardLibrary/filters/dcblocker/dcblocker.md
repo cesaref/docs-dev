@@ -1,5 +1,5 @@
 ---
-title: dcblocker
+title: std::filters::dcblocker
 permalink: /docs/StandardLibrary#dcblocker
 parent: std.filters
 grand_parent: Standard Library

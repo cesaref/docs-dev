@@ -1,7 +1,7 @@
 ---
-title: Mode
+title: std::filters::butterworth::Mode
 permalink: /docs/StandardLibrary#Mode3
-parent: butterworth
+parent: std::filters::butterworth
 grand_parent: std.filters
 has_children: False
 nav_order: 0

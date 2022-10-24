@@ -1,5 +1,5 @@
 ---
-title: pan_law
+title: std::pan_law
 permalink: /docs/StandardLibrary#pan_law
 parent: std
 grand_parent: Standard Library

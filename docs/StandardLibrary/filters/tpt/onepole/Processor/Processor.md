@@ -1,8 +1,8 @@
 ---
 title: Processor
 permalink: /docs/StandardLibrary#Processor
-parent: onepole
-grand_parent: tpt
+parent: std::filters::tpt::onepole
+grand_parent: std::filters::tpt
 has_children: False
 nav_order: 1
 ---

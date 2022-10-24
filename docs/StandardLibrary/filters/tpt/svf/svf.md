@@ -1,7 +1,7 @@
 ---
-title: svf
+title: std::filters::tpt::svf
 permalink: /docs/StandardLibrary#svf
-parent: tpt
+parent: std::filters::tpt
 grand_parent: std.filters
 has_children: True
 nav_order: 1
