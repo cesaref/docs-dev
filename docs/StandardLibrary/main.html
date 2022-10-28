@@ -605,7 +605,21 @@ has_toc: false
     <div class="moduleTitle">
      <h2>std.filters</h2>
     </div>
-    <div class="comment">Contains implementations of some common filters. <br>The module is parameterised with the FrameType, which can be a float32/64 primitive or vector, and represents the data which is being filtered. <br>The CoefficientType is the internal data type used for calculating the filter coefficients, and can be float32 or float64, with increased precision and accuracy from float64, but at the cost of higher computational cost. <br>When filters are modulated, the filter parameters are updated intermittently, with the parameterUpdateRate specifying how often the updates are applied, to reduce the cost of recalculating coefficients <br></div>
+    <div class="comment">This module contains a collection of filter implementations, including more traditional biquad based filters and TPT variants, which are more suitable for modulation. <br>Notes: <ul>
+      <li>Filter coefficients are typically labelled a and b. Different literature uses different conventions for what a and b mean. This code uses the following: </li>
+      <ul>
+       <li><code>b</code>: feed-forward, numerator, zero, FIR coefficients. </li>
+       <li><code>a</code>: feed-back, denominator, pole, IIR coefficients. </li>
+      </ul>
+      <li>Although each filter comes with a Processor, they are designed so that their state, coefficients and functions can be used independently. </li>
+      <li>Each filter has a <code>State</code> struct and a <code>Coeffs</code> struct. </li>
+      <li><code>process()</code> functions generate an output y for an input x. </li>
+      <li><code>update()</code> functions take high level parameters such as mode, frequency, Q, mode and update the filter coefficients. </li>
+      <li><code>reset()</code> functions reset the filter state/histories to 0. </li>
+      <li><code>clear()</code> functions clears filter coefficients. </li>
+      <li>The filters are designed for channel-wise vectorisation, which can be achieved by specialising the filter&#39;s namespace with a vector type. </li>
+      <li>Some filters are suitable for modulation, others are not, check the comments at the top of the namespace. </li></ul>
+    </div>
    </div>
    <div class="namespace" id="filters" href="#filters">
     <div class="namespaceTitle">
