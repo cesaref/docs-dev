@@ -34,8 +34,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::audio_data::SamplePlayer (using <span class="code_ident">
-        <a href="#SampleContent">SampleContent</a></span>)</code>
+      <code><span class="keyword">processor</span> std::audio_data::SamplePlayer (<span class="keyword">using </span>SampleContent)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -225,8 +224,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::delay::StreamDelay (using <span class="code_ident">
-        <a href="#StreamType">StreamType</a></span><br>                                   <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">delayLength</span>)</code>
+      <code><span class="keyword">processor</span> std::delay::StreamDelay (<span class="keyword">using </span>StreamType<br>                                   <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">delayLength</span>)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -301,8 +299,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::delay::ValueDelay (using <span class="code_ident">
-        <a href="#StreamType2">StreamType</a></span><br>                                  <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">delayLength</span>)</code>
+      <code><span class="keyword">processor</span> std::delay::ValueDelay (<span class="keyword">using </span>StreamType<br>                                  <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">delayLength</span>)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -377,8 +374,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::delay::EventDelay (using <span class="code_ident">
-        <a href="#EventType">EventType</a></span><br>                                  <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">delayLength</span><br>                                  <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">bufferSize</span>)</code>
+      <code><span class="keyword">processor</span> std::delay::EventDelay (<span class="keyword">using </span>EventType<br>                                  <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">delayLength</span><br>                                  <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">bufferSize</span>)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -627,7 +623,7 @@ has_toc: false
     </div>
     <div class="specialisations">
      <h2>Specialisation Parameters</h2>
-     <code><span class="keyword">namespace</span> std::filters (using <span class="code_prim">float32</span><br>                        using <span class="code_prim">float32</span><br>                        <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">parameterUpdateRate</span><span class="code"> = </span><span class="code_literal">32</span>)</code>
+     <code><span class="keyword">namespace</span> std::filters (<span class="keyword">using </span>FrameType = <span class="code_prim">float32</span><br>                        <span class="keyword">using </span>CoefficientType = <span class="code_prim">float32</span><br>                        <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">parameterUpdateRate</span><span class="code"> = </span><span class="code_literal">32</span>)</code>
      <div class="spec_members">
       <table class="specialisation_table">
        <th>Specialisation</th>
@@ -2507,8 +2503,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::levels::ConstantGain (using <span class="code_ident">
-        <a href="#FrameType">FrameType</a></span><br>                                     <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">gain</span>)</code>
+      <code><span class="keyword">processor</span> std::levels::ConstantGain (<span class="keyword">using </span>FrameType<br>                                     <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">gain</span>)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -2554,8 +2549,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::levels::DynamicGain (using <span class="code_ident">
-        <a href="#FrameType2">FrameType</a></span>)</code>
+      <code><span class="keyword">processor</span> std::levels::DynamicGain (<span class="keyword">using </span>FrameType)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -2599,8 +2593,7 @@ has_toc: false
      <h2>graph std::levels::SmoothedGain</h2>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">graph</span> std::levels::SmoothedGain (using <span class="code_ident">
-        <a href="#FrameType3">FrameType</a></span><br>                                 <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">smoothingTimeSeconds</span><span class="code"> = </span><span class="code_literal">0.2f</span>)</code>
+      <code><span class="keyword">graph</span> std::levels::SmoothedGain (<span class="keyword">using </span>FrameType<br>                                 <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">smoothingTimeSeconds</span><span class="code"> = </span><span class="code_literal">0.2f</span>)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3024,8 +3017,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::mixers::StereoToMono (using <span class="code_ident">
-        <a href="#SampleType">SampleType</a></span>)</code>
+      <code><span class="keyword">processor</span> std::mixers::StereoToMono (<span class="keyword">using </span>SampleType)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3066,8 +3058,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::mixers::MonoToStereo (using <span class="code_ident">
-        <a href="#SampleType2">SampleType</a></span>)</code>
+      <code><span class="keyword">processor</span> std::mixers::MonoToStereo (<span class="keyword">using </span>SampleType)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3108,8 +3099,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::mixers::DynamicSum (using <span class="code_ident">
-        <a href="#FrameType4">FrameType</a></span>)</code>
+      <code><span class="keyword">processor</span> std::mixers::DynamicSum (<span class="keyword">using </span>FrameType)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3165,8 +3155,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::mixers::ConstantSum (using <span class="code_ident">
-        <a href="#FrameType5">FrameType</a></span><br>                                    <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">inputGain1</span><span class="code"> = </span><span class="code_literal">1.0f</span><br>                                    <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">inputGain2</span><span class="code"> = </span><span class="code_literal">1.0f</span>)</code>
+      <code><span class="keyword">processor</span> std::mixers::ConstantSum (<span class="keyword">using </span>FrameType<br>                                    <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">inputGain1</span><span class="code"> = </span><span class="code_literal">1.0f</span><br>                                    <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">inputGain2</span><span class="code"> = </span><span class="code_literal">1.0f</span>)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3222,8 +3211,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::mixers::Interpolator (using <span class="code_ident">
-        <a href="#FrameType6">FrameType</a></span><br>                                     <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">mixRange</span>)</code>
+      <code><span class="keyword">processor</span> std::mixers::Interpolator (<span class="keyword">using </span>FrameType<br>                                     <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">mixRange</span>)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3737,7 +3725,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">namespace</span> std::oscillators::waveshape (using <span class="code_prim">float32</span>)</code>
+      <code><span class="keyword">namespace</span> std::oscillators::waveshape (<span class="keyword">using </span>SampleType = <span class="code_prim">float32</span>)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3856,8 +3844,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::oscillators::Phasor (using <span class="code_ident">
-        <a href="#FrameType7">FrameType</a></span><br>                                    <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">initialFrequency</span><span class="code"> = </span><span class="code_literal">1000</span>)</code>
+      <code><span class="keyword">processor</span> std::oscillators::Phasor (<span class="keyword">using </span>FrameType<br>                                    <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">initialFrequency</span><span class="code"> = </span><span class="code_literal">1000</span>)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3929,8 +3916,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::oscillators::Sine (using <span class="code_ident">
-        <a href="#FrameType8">FrameType</a></span><br>                                  <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">initialFrequency</span><span class="code"> = </span><span class="code_literal">440.0f</span>)</code>
+      <code><span class="keyword">processor</span> std::oscillators::Sine (<span class="keyword">using </span>FrameType<br>                                  <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">initialFrequency</span><span class="code"> = </span><span class="code_literal">440.0f</span>)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -4002,8 +3988,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code><span class="keyword">processor</span> std::oscillators::PolyblepOscillator (using <span class="code_ident">
-        <a href="#FrameType9">FrameType</a></span><br>                                                <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">initialShape</span><span class="code"> = </span><span class="code_ident">Shape</span><span class="code">::</span><span class="code_ident">sawtooth</span><br>                                                <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">initialFrequency</span><span class="code"> = </span><span class="code_literal">440.0f</span>)</code>
+      <code><span class="keyword">processor</span> std::oscillators::PolyblepOscillator (<span class="keyword">using </span>FrameType<br>                                                <span class="code_prim">int32</span><span class="code"> </span><span class="code_ident">initialShape</span><span class="code"> = </span><span class="code_ident">Shape</span><span class="code">::</span><span class="code_ident">sawtooth</span><br>                                                <span class="code_prim">float32</span><span class="code"> </span><span class="code_ident">initialFrequency</span><span class="code"> = </span><span class="code_literal">440.0f</span>)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
