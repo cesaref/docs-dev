@@ -34,8 +34,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using SampleContent)
-</code>
+      <code><span class="keyword">processor</span> std::audio_data::SamplePlayer (using SampleContent)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -225,8 +224,8 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using StreamType, int32 delayLength)
-</code>
+      <code><span class="keyword">processor</span> std::delay::StreamDelay (using StreamType,
+                                   delayLength)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -301,8 +300,8 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using StreamType, int32 delayLength)
-</code>
+      <code><span class="keyword">processor</span> std::delay::ValueDelay (using StreamType,
+                                  delayLength)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -377,8 +376,9 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using EventType, int32 delayLength, int32 bufferSize)
-</code>
+      <code><span class="keyword">processor</span> std::delay::EventDelay (using EventType,
+                                  delayLength,
+                                  bufferSize)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -533,8 +533,8 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (float32 attackSeconds, float32 releaseSeconds)
-</code>
+      <code><span class="keyword">processor</span> std::envelopes::FixedASR (attackSeconds,
+                                    releaseSeconds)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -628,8 +628,9 @@ has_toc: false
     </div>
     <div class="specialisations">
      <h2>Specialisation Parameters</h2>
-     <code> (using FrameType = float32, using CoefficientType = float32, int32 parameterUpdateRate = 32)
-</code>
+     <code><span class="keyword">namespace</span> std::filters (using FrameType,
+                        using CoefficientType,
+                        parameterUpdateRate)</code>
      <div class="spec_members">
       <table class="specialisation_table">
        <th>Specialisation</th>
@@ -701,8 +702,8 @@ has_toc: false
        </div>
        <div class="specialisations">
         <h2>Specialisation Parameters</h2>
-        <code> (int32 initialMode = Mode::lowPass, float32 initialFrequency = defaultFrequency)
-</code>
+        <code><span class="keyword">processor</span> std::filters::tpt::onepole::Processor (initialMode,
+                                                 initialFrequency)</code>
         <div class="spec_members">
          <table class="specialisation_table">
           <th>Specialisation</th>
@@ -918,8 +919,9 @@ has_toc: false
        </div>
        <div class="specialisations">
         <h2>Specialisation Parameters</h2>
-        <code> (int32 initialMode = Mode::lowPass, float32 initialFrequency = defaultFrequency, float32 initialQ = defaultQ)
-</code>
+        <code><span class="keyword">processor</span> std::filters::tpt::svf::Processor (initialMode,
+                                             initialFrequency,
+                                             initialQ)</code>
         <div class="spec_members">
          <table class="specialisation_table">
           <th>Specialisation</th>
@@ -1053,8 +1055,8 @@ has_toc: false
        </div>
        <div class="specialisations">
         <h2>Specialisation Parameters</h2>
-        <code> (float32 initialFrequency = defaultFrequency, float32 initialQ = defaultQ)
-</code>
+        <code><span class="keyword">processor</span> std::filters::tpt::svf::MultimodeProcessor (initialFrequency,
+                                                      initialQ)</code>
         <div class="spec_members">
          <table class="specialisation_table">
           <th>Specialisation</th>
@@ -1333,8 +1335,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (int32 order = 2)
-</code>
+      <code><span class="keyword">namespace</span> std::filters::butterworth (order)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -1387,8 +1388,8 @@ has_toc: false
       </div>
       <div class="specialisations">
        <h2>Specialisation Parameters</h2>
-       <code> (int32 initialMode = Mode::lowPass, float32 initialFrequency = defaultFrequency)
-</code>
+       <code><span class="keyword">processor</span> std::filters::butterworth::Processor (initialMode,
+                                                initialFrequency)</code>
        <div class="spec_members">
         <table class="specialisation_table">
          <th>Specialisation</th>
@@ -1553,8 +1554,7 @@ has_toc: false
       </div>
       <div class="specialisations">
        <h2>Specialisation Parameters</h2>
-       <code> (float32 initialFrequency = defaultFrequency)
-</code>
+       <code><span class="keyword">processor</span> std::filters::crossover::Processor (initialFrequency)</code>
        <div class="spec_members">
         <table class="specialisation_table">
          <th>Specialisation</th>
@@ -1799,8 +1799,10 @@ has_toc: false
       </div>
       <div class="specialisations">
        <h2>Specialisation Parameters</h2>
-       <code> (int32 initialMode = Mode::lowPass, float32 initialFrequency = defaultFrequency, float32 initialQ = defaultQ, float32 initialGain = defaultGain)
-</code>
+       <code><span class="keyword">processor</span> std::filters::simper::Processor (initialMode,
+                                           initialFrequency,
+                                           initialQ,
+                                           initialGain)</code>
        <div class="spec_members">
         <table class="specialisation_table">
          <th>Specialisation</th>
@@ -2383,8 +2385,8 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (float32 smoothingTimeSeconds = 0.2f, float32 initialValue = 0.0f)
-</code>
+      <code><span class="keyword">processor</span> std::smoothing::SmoothedValueStream (smoothingTimeSeconds,
+                                               initialValue)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -2517,8 +2519,8 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using FrameType, float32 gain)
-</code>
+      <code><span class="keyword">processor</span> std::levels::ConstantGain (using FrameType,
+                                     gain)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -2564,8 +2566,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using FrameType)
-</code>
+      <code><span class="keyword">processor</span> std::levels::DynamicGain (using FrameType)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -2609,8 +2610,8 @@ has_toc: false
      <h2>graph std::levels::SmoothedGain</h2>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using FrameType, float32 smoothingTimeSeconds = 0.2f)
-</code>
+      <code><span class="keyword">graph</span> std::levels::SmoothedGain (using FrameType,
+                                 smoothingTimeSeconds)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -2671,8 +2672,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (float32 smoothingTimeSeconds = 0.2f)
-</code>
+      <code><span class="keyword">processor</span> std::levels::SmoothedGainParameter (smoothingTimeSeconds)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3035,8 +3035,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using SampleType)
-</code>
+      <code><span class="keyword">processor</span> std::mixers::StereoToMono (using SampleType)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3077,8 +3076,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using SampleType)
-</code>
+      <code><span class="keyword">processor</span> std::mixers::MonoToStereo (using SampleType)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3119,8 +3117,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using FrameType)
-</code>
+      <code><span class="keyword">processor</span> std::mixers::DynamicSum (using FrameType)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3176,8 +3173,9 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using FrameType, float32 inputGain1 = 1.0f, float32 inputGain2 = 1.0f)
-</code>
+      <code><span class="keyword">processor</span> std::mixers::ConstantSum (using FrameType,
+                                    inputGain1,
+                                    inputGain2)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3233,8 +3231,8 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using FrameType, float32 mixRange)
-</code>
+      <code><span class="keyword">processor</span> std::mixers::Interpolator (using FrameType,
+                                     mixRange)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3748,8 +3746,7 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using SampleType = float32)
-</code>
+      <code><span class="keyword">namespace</span> std::oscillators::waveshape (using SampleType)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3868,8 +3865,8 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using FrameType, float32 initialFrequency = 1000)
-</code>
+      <code><span class="keyword">processor</span> std::oscillators::Phasor (using FrameType,
+                                    initialFrequency)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -3941,8 +3938,8 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using FrameType, float32 initialFrequency = 440.0f)
-</code>
+      <code><span class="keyword">processor</span> std::oscillators::Sine (using FrameType,
+                                  initialFrequency)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -4014,8 +4011,9 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (using FrameType, int32 initialShape = Shape::sawtooth, float32 initialFrequency = 440.0f)
-</code>
+      <code><span class="keyword">processor</span> std::oscillators::PolyblepOscillator (using FrameType,
+                                                initialShape,
+                                                initialFrequency)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -4112,8 +4110,10 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (Shape initialShape = Shape::sine, float32 initialFrequency = 1.0f, float32 initialAmplitude = 1.0f, float32 initialOffset = 0.0f)
-</code>
+      <code><span class="keyword">processor</span> std::oscillators::LFO (initialShape,
+                                 initialFrequency,
+                                 initialAmplitude,
+                                 initialOffset)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
@@ -4853,8 +4853,8 @@ has_toc: false
      </div>
      <div class="specialisations">
       <h2>Specialisation Parameters</h2>
-      <code> (int32 numVoices, int32 MPEMasterChannel = 0)
-</code>
+      <code><span class="keyword">processor</span> std::voices::VoiceAllocator (numVoices,
+                                       MPEMasterChannel)</code>
       <div class="spec_members">
        <table class="specialisation_table">
         <th>Specialisation</th>
