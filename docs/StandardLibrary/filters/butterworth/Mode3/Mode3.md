@@ -4,5 +4,5 @@ permalink: /docs/StandardLibrary#Mode3
 parent: std::filters::butterworth
 grand_parent: std.filters
 has_children: False
-nav_order: 1
+nav_order: 0
 ---

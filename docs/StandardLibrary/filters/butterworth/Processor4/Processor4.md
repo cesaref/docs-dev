@@ -4,5 +4,5 @@ permalink: /docs/StandardLibrary#Processor4
 parent: std::filters::butterworth
 grand_parent: std.filters
 has_children: False
-nav_order: 0
+nav_order: 1
 ---
