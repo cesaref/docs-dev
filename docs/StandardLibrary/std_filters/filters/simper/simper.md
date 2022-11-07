@@ -1,7 +1,7 @@
 ---
-title: std::filters::simper
+title: simper
 permalink: /docs/StandardLibrary#simper
-parent: std::filters
+parent: filters
 grand_parent: std.filters
 has_children: True
 nav_order: 4

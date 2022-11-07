@@ -1,5 +1,5 @@
 ---
-title: std::smoothing
+title: smoothing
 permalink: /docs/StandardLibrary#smoothing
 parent: std.levels
 grand_parent: Standard Library

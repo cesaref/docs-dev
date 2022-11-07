@@ -1,5 +1,5 @@
 ---
-title: std::midi
+title: midi
 permalink: /docs/StandardLibrary#midi
 parent: std.midi
 grand_parent: Standard Library

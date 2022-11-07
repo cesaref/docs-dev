@@ -1,8 +1,8 @@
 ---
 title: Processor
 permalink: /docs/StandardLibrary#Processor4
-parent: std::filters::butterworth
-grand_parent: std::filters
+parent: butterworth
+grand_parent: filters
 has_children: False
 nav_order: 0
 ---

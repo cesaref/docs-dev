@@ -1,7 +1,7 @@
 ---
-title: std::filters::butterworth
+title: butterworth
 permalink: /docs/StandardLibrary#butterworth
-parent: std::filters
+parent: filters
 grand_parent: std.filters
 has_children: True
 nav_order: 2

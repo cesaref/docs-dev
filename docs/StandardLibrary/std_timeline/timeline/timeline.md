@@ -1,5 +1,5 @@
 ---
-title: std::timeline
+title: timeline
 permalink: /docs/StandardLibrary#timeline
 parent: std.timeline
 grand_parent: Standard Library

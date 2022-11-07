@@ -1,5 +1,5 @@
 ---
-title: std::noise
+title: noise
 permalink: /docs/StandardLibrary#noise
 parent: std.noise
 grand_parent: Standard Library

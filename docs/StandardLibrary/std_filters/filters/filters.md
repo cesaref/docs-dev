@@ -1,5 +1,5 @@
 ---
-title: std::filters
+title: filters
 permalink: /docs/StandardLibrary#filters
 parent: std.filters
 grand_parent: Standard Library

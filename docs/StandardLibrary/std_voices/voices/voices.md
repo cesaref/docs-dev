@@ -1,5 +1,5 @@
 ---
-title: std::voices
+title: voices
 permalink: /docs/StandardLibrary#voices
 parent: std.voices
 grand_parent: Standard Library

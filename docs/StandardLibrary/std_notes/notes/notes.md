@@ -1,5 +1,5 @@
 ---
-title: std::notes
+title: notes
 permalink: /docs/StandardLibrary#notes
 parent: std.notes
 grand_parent: Standard Library

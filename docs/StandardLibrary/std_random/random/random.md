@@ -1,5 +1,5 @@
 ---
-title: std::random
+title: random
 permalink: /docs/StandardLibrary#random
 parent: std.random
 grand_parent: Standard Library

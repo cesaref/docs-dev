@@ -1,7 +1,7 @@
 ---
-title: std::filters::tpt
+title: tpt
 permalink: /docs/StandardLibrary#tpt
-parent: std::filters
+parent: filters
 grand_parent: std.filters
 has_children: True
 nav_order: 0

@@ -1,5 +1,5 @@
 ---
-title: std::frequency
+title: frequency
 permalink: /docs/StandardLibrary#frequency7
 parent: std.frequency
 grand_parent: Standard Library

@@ -1,5 +1,5 @@
 ---
-title: std::delay
+title: delay
 permalink: /docs/StandardLibrary#delay
 parent: std.delay
 grand_parent: Standard Library
