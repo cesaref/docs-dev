@@ -2,6 +2,6 @@
 title: std.intrinsics
 permalink: /docs/StandardLibrary#std_intrinsics
 parent: Standard Library
-has_children: False
-nav_order: 6
+has_children: True
+nav_order: 5
 ---

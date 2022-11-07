@@ -2,6 +2,6 @@
 title: std.voices
 permalink: /docs/StandardLibrary#std_voices
 parent: Standard Library
-has_children: False
-nav_order: 15
+has_children: True
+nav_order: 14
 ---

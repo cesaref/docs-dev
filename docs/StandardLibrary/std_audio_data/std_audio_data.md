@@ -2,6 +2,6 @@
 title: std.audio_data
 permalink: /docs/StandardLibrary#std_audio_data
 parent: Standard Library
-has_children: False
-nav_order: 1
+has_children: True
+nav_order: 0
 ---
